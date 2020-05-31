@@ -1,0 +1,32 @@
+[book]
+authors = ["2ⁿᵈ Layer"]
+language = "en"
+multilingual = false
+src = "content"
+title = "Software development documentation for 2ⁿᵈ Layer Exchange"
+
+[output.html]
+default-theme = "Ayu"
+theme = ".theme"
+git-repository-url = "https://github.com/2nd-Layer/exchange.2ndlayer.eu"
+git-repository-icon = "fa-github"
+mathjax-support = false
+no-section-label = true
+
+[output.html.playpen]
+editable = true
+
+[output.html.search]
+limit-results = 15
+use-boolean-and = true
+boost-title = 2
+boost-heirarchy = 1
+boost-paragraph = 1
+expand = true
+head-split-level = 2
+
+[output.html.fold]
+enable = true
+level = 3
+
+[rust]
